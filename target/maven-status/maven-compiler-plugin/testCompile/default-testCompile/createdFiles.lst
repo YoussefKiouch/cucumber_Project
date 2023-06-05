@@ -1,0 +1,7 @@
+step_defs\ParamStepDefs.class
+runners\RegressionRunner.class
+runners\SmokeRunner.class
+step_defs\ReportStep.class
+runners\AmazonTest.class
+step_defs\AppleStoreSteps.class
+step_defs\FirstStepdef.class

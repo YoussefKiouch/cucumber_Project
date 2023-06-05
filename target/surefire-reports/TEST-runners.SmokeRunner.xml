@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runners.SmokeRunner" time="0.94" tests="57" errors="0" skipped="22" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Youssef\OneDrive\Bureau\cucumberProject\target\test-classes;C:\Users\Youssef\OneDrive\Bureau\cucumberProject\target\classes;C:\Users\Youssef\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Youssef\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Youssef\AppData\Local\Temp\surefire8817174137085500637\surefirebooter9163071620863877525.jar C:\Users\Youssef\AppData\Local\Temp\surefire8817174137085500637 2023-03-07T17-21-08_100-jvmRun1 surefire6364686216740890245tmp surefire_056359308398121460tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Youssef\OneDrive\Bureau\cucumberProject\target\test-classes;C:\Users\Youssef\OneDrive\Bureau\cucumberProject\target\classes;C:\Users\Youssef\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Youssef\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Youssef\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Youssef\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Youssef"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_341\jre"/>
+    <property name="basedir" value="C:\Users\Youssef\OneDrive\Bureau\cucumberProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Youssef\AppData\Local\Temp\surefire8817174137085500637\surefirebooter9163071620863877525.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_341\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_341\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_341-b10"/>
+    <property name="user.name" value="Youssef"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Youssef\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Youssef\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.4"/>
+    <property name="java.version" value="1.8.0_341"/>
+    <property name="user.dir" value="C:\Users\Youssef\OneDrive\Bureau\cucumberProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_341\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Youssef\Downloads\apache-maven-3.9.0-bin\apache-maven-3.9.0\bin;C:\Users\Youssef\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.341-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_341\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="Scenario: Integer Params -Buy functionality" time="0.003"/>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="And User Buys 20 &quot;Iphones&quot;" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="And User Buys 20 &quot;Iphones&quot;" classname="Scenario: Integer Params -Buy functionality" time="0.001"/>
+  <testcase name="Then User should have 20 &quot;Iphones&quot;" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="Then User should have 20 &quot;Iphones&quot;" classname="Scenario: Integer Params -Buy functionality" time="0"/>
+  <testcase name="Scenario: Integer Params -Buy functionality" classname="Scenario: Integer Params -Buy functionality" time="0.001"/>
+  <testcase name="Scenario: Integer Params -Buy functionality" classname="Scenario: Integer Params -Buy functionality" time="0.001"/>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="| 100 | Iphone | 10 | 90 |" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="| 100 | Iphone | 10 | 90 |" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="| 100 | Iphone | 10 | 90 |" time="0"/>
+  <testcase name="Given Apple store has 100 &quot;Iphone&quot;" classname="| 100 | Iphone | 10 | 90 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                                                                        &amp#27;[90m# features/BackgroundAndOutline.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" is registered&amp#27;[0m &amp#27;[90m# ParamStepDefs.user_with_password_is_registered(String,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" logs in&amp#27;[0m        &amp#27;[90m# ParamStepDefs.user_with_password_logs_in(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser  "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" should be navigated to HomePage&amp#27;[0m                    &amp#27;[90m# ParamStepDefs.userShouldBeNavigatedToHomePage(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When User buys 10 &quot;Iphone&quot;" classname="| 100 | Iphone | 10 | 90 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should have 10 &quot;Iphone&quot;" classname="| 100 | Iphone | 10 | 90 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Apple Store should have 90 &quot;Iphone&quot;" classname="| 100 | Iphone | 10 | 90 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 100 | Iphone | 10 | 90 |" classname="| 100 | Iphone | 10 | 90 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 100 | Iphone | 10 | 90 |" classname="| 100 | Iphone | 10 | 90 |" time="0.01"/>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="| 50 | Ipad | 5 | 45 |" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="| 50 | Ipad | 5 | 45 |" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="| 50 | Ipad | 5 | 45 |" time="0"/>
+  <testcase name="Given Apple store has 50 &quot;Ipad&quot;" classname="| 50 | Ipad | 5 | 45 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                                                                        &amp#27;[90m# features/BackgroundAndOutline.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" is registered&amp#27;[0m &amp#27;[90m# ParamStepDefs.user_with_password_is_registered(String,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" logs in&amp#27;[0m        &amp#27;[90m# ParamStepDefs.user_with_password_logs_in(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser  "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" should be navigated to HomePage&amp#27;[0m                    &amp#27;[90m# ParamStepDefs.userShouldBeNavigatedToHomePage(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When User buys 5 &quot;Ipad&quot;" classname="| 50 | Ipad | 5 | 45 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should have 5 &quot;Ipad&quot;" classname="| 50 | Ipad | 5 | 45 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Apple Store should have 45 &quot;Ipad&quot;" classname="| 50 | Ipad | 5 | 45 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 50 | Ipad | 5 | 45 |" classname="| 50 | Ipad | 5 | 45 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 50 | Ipad | 5 | 45 |" classname="| 50 | Ipad | 5 | 45 |" time="0.008"/>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="| 80 | Watches | 10 | 70 |" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="| 80 | Watches | 10 | 70 |" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="| 80 | Watches | 10 | 70 |" time="0"/>
+  <testcase name="Given Apple store has 80 &quot;Watches&quot;" classname="| 80 | Watches | 10 | 70 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                                                                        &amp#27;[90m# features/BackgroundAndOutline.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" is registered&amp#27;[0m &amp#27;[90m# ParamStepDefs.user_with_password_is_registered(String,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" logs in&amp#27;[0m        &amp#27;[90m# ParamStepDefs.user_with_password_logs_in(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser  "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" should be navigated to HomePage&amp#27;[0m                    &amp#27;[90m# ParamStepDefs.userShouldBeNavigatedToHomePage(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When User buys 10 &quot;Watches&quot;" classname="| 80 | Watches | 10 | 70 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should have 10 &quot;Watches&quot;" classname="| 80 | Watches | 10 | 70 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Apple Store should have 70 &quot;Watches&quot;" classname="| 80 | Watches | 10 | 70 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 80 | Watches | 10 | 70 |" classname="| 80 | Watches | 10 | 70 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 80 | Watches | 10 | 70 |" classname="| 80 | Watches | 10 | 70 |" time="0.009"/>
+  <testcase name="Given User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; is registered" classname="| 11 | Mac | 10 | 1 |" time="0"/>
+  <testcase name="When User &quot;johnDoe@gmail.com&quot; with password &quot;ExtreamnelyHardPa$$&quot; logs in" classname="| 11 | Mac | 10 | 1 |" time="0"/>
+  <testcase name="And User  &quot;johnDoe@gmail.com&quot; should be navigated to HomePage" classname="| 11 | Mac | 10 | 1 |" time="0"/>
+  <testcase name="Given Apple store has 11 &quot;Mac&quot;" classname="| 11 | Mac | 10 | 1 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                                                                        &amp#27;[90m# features/BackgroundAndOutline.feature:3&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" is registered&amp#27;[0m &amp#27;[90m# ParamStepDefs.user_with_password_is_registered(String,String)&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" with password "&amp#27;[0m&amp#27;[32m&amp#27;[1mExtreamnelyHardPa$$&amp#27;[0m&amp#27;[32m" logs in&amp#27;[0m        &amp#27;[90m# ParamStepDefs.user_with_password_logs_in(String,String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser  "&amp#27;[0m&amp#27;[32m&amp#27;[1mjohnDoe@gmail.com&amp#27;[0m&amp#27;[32m" should be navigated to HomePage&amp#27;[0m                    &amp#27;[90m# ParamStepDefs.userShouldBeNavigatedToHomePage(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="When User buys 10 &quot;Mac&quot;" classname="| 11 | Mac | 10 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User should have 10 &quot;Mac&quot;" classname="| 11 | Mac | 10 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Apple Store should have 1 &quot;Mac&quot;" classname="| 11 | Mac | 10 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 11 | Mac | 10 | 1 |" classname="| 11 | Mac | 10 | 1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| 11 | Mac | 10 | 1 |" classname="| 11 | Mac | 10 | 1 |" time="0.008"/>
+  <testcase name="Given the following invoices are created" classname="Scenario: Data table  -Great" time="0"/>
+  <testcase name="When user sends the above invoices" classname="Scenario: Data table  -Great" time="0"/>
+  <testcase name="Then user should have 522 in total invoices report" classname="Scenario: Data table  -Great" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Data table  -Great" classname="Scenario: Data table  -Great" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Data table  -Great" classname="Scenario: Data table  -Great" time="0.002"/>
+  <testcase name="Given User &quot;tim@apple.com&quot; with password &quot;timceo&quot; is registered" classname="Scenario: Login With Params" time="0"/>
+  <testcase name="When User &quot;tim@apple.com&quot; with password &quot;timceo&quot; logs in" classname="Scenario: Login With Params" time="0"/>
+  <testcase name="Then User &quot;tim@apple.com&quot; should be navigated to Homepage" classname="Scenario: Login With Params" time="0"/>
+  <testcase name="Scenario: Login With Params" classname="Scenario: Login With Params" time="0"/>
+</testsuite>
